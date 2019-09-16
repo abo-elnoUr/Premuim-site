@@ -1,0 +1,1043 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+*,
+*::before,
+*::after
+{
+  box-sizing: border-box
+    
+}
+h1,h2,h3,h4,h5,h6
+{
+/*    font-family: 'Segoe UI', 'Roboto', arial, sans-serif !important; */
+/*    font-family: 'Lacquer', sans-serif !important;*/
+}
+
+/*
+p,ul,li,button,a
+{
+    font-family: 'Roboto',sans-serif !important
+}
+*/
+body
+{
+/*    height: 3000px;*/
+/*    overflow: hidden*/
+}
+
+
+/*********************************Start NavBar******************************************/
+
+.navbar-mine
+{
+    z-index: 5165151;
+/*    display: none*/
+}
+
+
+
+.navbar-mine .navbar-brand-mine
+{
+    font-weight: 600;
+    color: #666
+}
+
+.navbar-mine .navbar-brand-mine span
+{
+    color: gold;
+    padding:2px 4px;
+    border: 1px solid gold;
+    border-radius: 50%;
+    font-weight: 500
+    
+}
+
+.navbar-mine .navbar-nav-mine-2 li .fa-artstation
+{
+    color: gold;
+    cursor: pointer
+}
+
+
+.navbar-mine .navbar-nav-mine li .fa-home
+{
+    padding: 0 5px;
+    font-size: 25px
+}
+.navbar-mine .navbar-nav-mine li .fa-store-alt
+{
+    padding: 0 5px;
+}
+.navbar-mine .navbar-nav-mine li .fa-edit
+{
+    padding: 0 5px;
+    font-size: 25px
+}
+.navbar-mine .navbar-nav-mine li .fa-address-card
+{
+    padding: 0 5px;
+    font-size: 22px
+}
+.navbar-mine .navbar-nav-mine li .fa-phone-square-alt
+{
+    padding: 0 5px;
+    font-size: 25px
+}
+
+.navbar-mine .navbar-nav-mine li .fa-search
+{
+    color: #666;
+    cursor: pointer
+}
+
+@media screen and (min-width:500px) and (max-width:991px)
+{
+    .navbar-mine .navbar-nav-mine li input
+        {
+            max-width: 219px;
+            padding-right: 10px
+        }
+}
+
+
+
+
+.navbar-mine .nav-link-mine,
+.navbar-mine .nav-link-mine-c
+{
+    font-weight: 600;
+    
+}
+
+
+.navbar-mine .active-mine
+
+{
+    color: gold !important
+    
+}
+
+.navbar-mine .nav-link-mine:hover
+{
+    color: gold !important
+}
+
+
+.navbar-mine .nav-link-mine-c:hover
+{
+    color: red !important
+}
+
+
+.navbar-mine .form-control-mine
+{
+    border-radius: 20px
+}
+
+
+@media screen and (min-width:500px) and (max-width:991px)
+{
+    .navbar-mine .navbar-nav-mine-2 li .fa-artstation
+    {
+        display: none
+    }
+}
+
+/**************************************Start Header********************************************/
+
+.header
+{
+    background-image: url(../image/Annotation%202019-08-05%20021230.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 635px;
+}
+
+.header .head-cont
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 600px;
+/*    z-index: 78787878787878787878787*/
+}
+
+.header .head-cont h4
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+/*    font-family: 'Montserrat', sans-serif;*/
+    letter-spacing: 5px;
+    color: #333
+}
+
+.header .head-cont h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold !important;
+    color: #333
+}
+
+.header .head-cont h2 span
+{
+    color: #629622
+}
+
+.header .head-cont p
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    color: #777
+}
+
+.header .head-cont button
+{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #99ccff;
+    border-radius: 10px;
+    background-color: #E6E6FF;
+    cursor: pointer
+}
+
+
+
+
+
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+
+
+
+
+
+
+
+/**************** Rellax ******************/
+/**************** experiance ******************/
+
+
+#experiance .rellax-mine .television
+{
+    width: 400px;
+    height: 400px;
+}
+
+#experiance .rellax-mine .vally-ball
+{
+    width: 270px;
+    height: 200px;
+}
+
+#experiance .rellax-mine .microphone
+{
+    width: 150px;
+    height: 150px;
+}
+    
+#experiance .rellax-mine .macintosh
+{
+    width: 300px;
+    height: 250px;
+}
+   
+#experiance .rellax-mine .mac-keyboard
+{
+    width: 350px;
+    height: 150px;
+}
+
+#experiance .layer-mine
+{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#experiance .layer-mine img
+{
+    border-radius: 6px
+}
+
+#experiance .layer-mine .overlay
+{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(37,14,14,.7);
+    bottom: 100%;
+    border-radius: 6px;
+    transition: bottom .5s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+    
+}
+
+#experiance .layer-mine .overlay h3
+{
+    color: antiquewhite;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+}
+
+#experiance .layer-mine .overlay p
+{
+    color: #f1f1f1;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Comfortaa', cursive
+}
+
+#experiance .layer-mine .overlay .fa-facebook-messenger
+{
+    color: #0078FF;
+    cursor: pointer
+
+}
+
+#experiance .layer-mine .overlay .fa-facebook-messenger:hover
+{
+    color: #fff;
+    
+
+}
+
+#experiance .layer-mine .overlay .fa-whatsapp-square
+{
+    color: rgba(13,193,67,.8);
+    cursor: pointer
+
+}
+
+#experiance .layer-mine .overlay .fa-whatsapp-square:hover
+{
+    color: #fff;
+    
+
+}
+
+#experiance .layer-mine .overlay .fa-twitter
+{
+    color: #1DA1F2;
+    cursor: pointer
+
+}
+
+#experiance .layer-mine .overlay .fa-twitter:hover
+{
+    color: #fff;
+    
+
+}
+
+
+#experiance .layer-mine:hover .overlay
+{
+    bottom: 5%
+}
+
+#experiance .layer-mine .overlay-2
+{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    background-color: rgba(255,255,255,.9);
+    bottom: 5%;
+    border-radius: 6px;
+    transition: bottom .5s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+    
+}
+
+#experiance .layer-mine:hover .overlay-2
+{
+    bottom: -100%
+}
+
+
+#experiance .layer-mine .overlay-2 h3
+{
+    font-family: 'Righteous', cursive;
+}
+
+#experiance .layer-mine .overlay-2 h4
+{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#experiance .layer-mine .overlay-2 .fa-palette
+{
+    color: darkgoldenrod
+}
+
+#experiance .layer-mine .overlay-2 .fa-file-code
+{
+    color: red 
+}
+
+#experiance .layer-mine .overlay-2 .fa-database
+{
+    color: #888
+}
+
+
+#experiance .cont h2
+{
+    color: #333;
+    font-family: 'Lacquer', sans-serif !important;
+}
+
+#experiance .cont h2 span
+{
+    color: red
+}
+
+#experiance .cont p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 35px
+}
+
+
+/**************************************** Categories ******************************************/
+
+
+
+#Categories
+{
+    background-color: #f1f1f1
+}
+
+#Categories .cont h2
+{
+    color: #333;
+    font-family: 'Lacquer', sans-serif !important;
+}
+
+#Categories .cont h2 span
+{
+    color: red
+}
+
+#Categories .cont p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 35px
+}
+
+
+
+#Categories .layer-mine
+{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#Categories .layer-mine img
+{
+    border-radius: 6px;
+    cursor: pointer
+}
+
+#Categories .layer-mine .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    transition: background ease-in-out .5s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+    
+}
+
+#Categories .layer-mine
+{
+    cursor: pointer
+}
+
+#Categories .layer-mine .child-1
+{
+
+    background: rgba(37,255,100,1);
+
+}
+
+#Categories .layer-mine:hover .child-1
+{
+    background: rgba(37,255,100,.3);
+}
+
+
+#Categories .layer-mine .child-2
+{
+
+    background: rgba(37,230,140,1);
+
+    
+}
+#Categories .layer-mine:hover .child-2
+{
+    background: rgba(37,230,140,.3);
+}
+
+#Categories .layer-mine .child-3
+{
+
+    background: rgba(255, 204, 255,1);
+
+}
+#Categories .layer-mine:hover .child-3
+{
+    background: rgba(255, 204, 255,.3);
+}
+#Categories .layer-mine .child-4
+{
+
+    background: rgba(255, 148, 77,1);
+
+}
+#Categories .layer-mine:hover .child-4
+{
+    background: rgba(255, 148, 77,.3);
+}
+
+#Categories .layer-mine .child-5
+{
+
+    background: rgba(128, 0, 255,1);
+
+}
+
+#Categories .layer-mine:hover .child-5
+{
+    background: rgba(00,14,255,.3);
+}
+
+#Categories .layer-mine .child-6
+{
+
+    background: rgba(255,204,0,1);
+
+}
+#Categories .layer-mine:hover .child-6
+{
+    background: rgba(00,200,14,.3);
+}
+
+#Categories .layer-mine .child-7
+{
+
+    background: rgba(255,26,26,1);
+
+}
+#Categories .layer-mine:hover .child-7
+{
+    background: rgba(200,30,14,.3);
+}
+#Categories .layer-mine .child-8
+{
+
+    background: rgba(153, 102, 255,1);
+
+}
+#Categories .layer-mine:hover .child-8
+{
+    background: rgba(153, 102, 255,.3);
+}
+
+
+
+
+
+#Categories .layer-mine .overlay h3
+{
+    color: antiquewhite;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+}
+
+#Categories .layer-mine .overlay p
+{
+    color: #f1f1f1;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Comfortaa', cursive
+}
+
+#Categories .layer-mine .overlay .icon-mine
+{
+    color: #f1f1f1;
+    
+}
+
+/*********************** Hotspot Image ***************************/
+
+#hotspot
+{
+    background-color: #F9FAFE
+}
+
+
+
+#hotspot .head .layer
+{
+    position: relative
+}
+
+#hotspot .head .layer .overlay-mine
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#hotspot .head .layer .overlay-mine .img-1
+{
+    position: absolute;
+    left: 20%;
+    top: 65% 
+}
+
+@media screen and (min-width:992px) and (max-width:1270px)
+{
+
+    #hotspot .head .layer .overlay-mine .img-1
+    {
+    left: 17%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:991px)
+{
+    #hotspot .img-1 img
+    {
+        width: 52px;
+        height: 52px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-1
+    {
+    left: 12%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:700px)
+{
+    #hotspot .img-1 img
+    {
+        width: 32px;
+        height: 32px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-1
+    {
+    left: 12%;
+    }
+}
+
+
+
+#hotspot .head .layer .overlay-mine .img-2
+{
+    position: absolute;
+    left: 33%;
+    top: 55% 
+}
+
+@media screen and (min-width:992px) and (max-width:1270px)
+{
+
+    #hotspot .head .layer .overlay-mine .img-2
+    {
+    left: 32%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:991px)
+{
+    #hotspot .img-2 img
+    {
+        width: 52px;
+        height: 52px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-2
+    {
+    left: 30%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:700px)
+{
+    #hotspot .img-2 img
+    {
+        width: 32px;
+        height: 32px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-2
+    {
+    left: 30%;
+    }
+}
+
+
+#hotspot .head .layer .overlay-mine .img-3
+{
+    position: absolute;
+    left: 50%;
+    top: 65% 
+}
+
+@media screen and (min-width:992px) and (max-width:1270px)
+{
+
+    #hotspot .head .layer .overlay-mine .img-3
+    {
+    left: 52%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:991px)
+{
+    #hotspot .img-3 img
+    {
+        width: 52px;
+        height: 52px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-3
+    {
+    left: 50%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:700px)
+{
+    #hotspot .img-3 img
+    {
+        width: 32px;
+        height: 32px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-3
+    {
+    left: 50%;
+    }
+}
+
+
+#hotspot .head .layer .overlay-mine .img-4
+{
+    position: absolute;
+    left: 70%;
+    top: 55% 
+}
+
+@media screen and (min-width:992px) and (max-width:1270px)
+{
+
+    #hotspot .head .layer .overlay-mine .img-4
+    {
+    left: 72%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:991px)
+{
+    #hotspot .img-4 img
+    {
+        width: 52px;
+        height: 52px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-4
+    {
+    left: 70%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:700px)
+{
+    #hotspot .img-4 img
+    {
+        width: 32px;
+        height: 32px
+    }
+    
+    #hotspot .head .layer .overlay-mine .img-4
+    {
+    left: 70%;
+    }
+}
+
+
+
+#hotspot .head .layer .overlay-mine .bdr-ripple-ani-btn {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border-radius: 100%;
+  box-sizing: border-box;
+  animation: at-ripple 0.6s linear infinite;
+  overflow: hidden;
+}
+
+
+@media screen and (min-width:701px) and (max-width:991px)
+{
+    #hotspot .head .layer .overlay-mine .bdr-ripple-ani-btn
+    {
+        width: 52px;
+        height: 52px
+    }
+    
+   
+}
+
+@media screen and (min-width:500px) and (max-width:700px)
+{
+    #hotspot .head .layer .overlay-mine .bdr-ripple-ani-btn
+    {
+        width: 32px;
+        height: 32px
+    }
+    
+   
+}
+
+
+#hotspot .head .layer .overlay-mine .bdr-ripple-ani-btn.pink
+{
+  animation: at-ripple-pink 1s linear infinite;
+}
+
+
+#hotspot .head .layer .overlay-mine .bdr-ripple-ani-btn.two {
+  z-index: 2;
+}
+
+
+#hotspot .head .layer .overlay-mine .bdr-ripple-ani-btn img {
+  transform: rotate(0deg);
+  transition: 1s ease;
+    cursor: pointer
+}
+
+#hotspot .head .layer .overlay-mine .bdr-ripple-ani-btn:hover img {
+  transform: rotate(360deg);
+}
+
+
+@keyframes at-ripple {
+  0% {
+    box-shadow: 0 4px 10px rgba(200, 200, 200, 0.9), 0 0 0 0 rgba(200, 200, 200, 0.9), 0 0 0 5px rgba(200, 200, 200, 0.9), 0 0 0 10px rgba(200, 200, 200, 0.9);
+  }
+  100% {
+    box-shadow: 0 4px 10px rgba(200, 200, 200, 0.9), 0 0 0 5px rgba(200, 200, 200, 0.9), 0 0 0 10px rrgba(200, 200, 200, 0.9), 0 0 0 20px rgba(200, 200, 200, 0.9);
+  }
+}
+
+/* Pink Animate */
+@keyframes at-ripple-pink {
+  0% {
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6), 0 0 0 0 rgba(255, 255, 255, 0.6), 0 0 0 5px rgba(255, 255, 255, 0.6), 0 0 0 5px rgba(255, 255, 255, 0.6);
+  }
+  100% {
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.6), 0 0 0 5px rgba(255, 255, 255, 0.6), 0 0 0 5px rgba(255, 255, 255, 0.6), 0 0 0 15px rgba(255, 255, 255, 0.6);
+  }
+}
+
+
+
+/************************* Modal **************************/
+
+#modal .layer-mine img
+{
+    cursor: pointer;
+    border-radius: 4px
+}
+
+#modal .layer-mine
+{
+    position: relative
+}
+
+#modal .layer-mine .overlay-mine
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer
+}
+
+#modal .layer-mine .overlay-mine .fa-camera-retro
+{
+    color: #999
+}
+
+
+
+/*********Contact Us***********/
+
+
+#contact_us
+{
+    padding-top: 70px;
+    margin-top: 100px;
+}
+
+
+
+#contact_us .head-cont h2
+{
+    font-size: 40px;
+    color: #333;
+    padding: 0 0 30px;
+    margin: 0 0 40px;
+    font-weight: 800;
+    line-height: 30px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+
+
+#contact_us .all-input
+{
+    width: 80%;
+    margin: 0 auto
+}
+
+
+#contact_us .all-input input
+{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #888;
+    padding-left: 10px;
+    height: 40px;
+    margin: 20px 0;
+}
+
+
+
+
+#contact_us .all-input textarea
+{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #888;
+    padding: 10px;
+    height: 40px;
+    margin: 20px 0;
+}
+
+#contact_us .all-input button
+{
+    background-color: #ff305b;
+    padding: 15px 20px;
+    border: 1px solid #ff305b;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 15px
+}
+
+#contact_us .all-input button:hover
+{
+    background-color: #EC2403;
+    cursor: pointer;    
+}
+
+
+/**********Footer***********/
+
+
+#footer
+{
+    background-color: #444;
+}
+
+
+
+
+#footer .fa-facebook-f
+{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #4862A3
+   
+}
+
+
+#footer .fa-twitter
+{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #00ACEE
+}
+
+
+
+#footer .fa-google
+{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #888
+}
+
+#footer .fa-github
+{
+    cursor: pointer;
+    color: #FF305B
+}
+
+#footer .fa-facebook-f:hover
+{
+    color: #fff
+}
+
+
+#footer .fa-twitter:hover
+{
+    color: #fff
+    
+}
+
+#footer .fa-github:hover
+{
+    color: #FFf
+}
+
+#footer .fa-google:hover
+{
+    color: #fff
+}
+
+
+
+
+
